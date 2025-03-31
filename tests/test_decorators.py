@@ -74,6 +74,7 @@ def test_add_function_success(capsys):
 
 def test_faulty_function_error(capsys):
     """Тестирует вывод в консоль после ошибки"""
+
     @log()
     def faulty_function(x, y):
         return x / y
