@@ -15,5 +15,3 @@ print(mask_account_card(info))
 print(get_date(date_str))
 print(filter_by_state(transactions, state="EXECUTED"))
 print(sort_by_date(transactions, reverse=True))
-
-
